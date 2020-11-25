@@ -1,3 +1,7 @@
+/* -----------------------------------------
+Base
+----------------------------------------- */
+
 * {
   box-sizing: border-box;
   margin:0;
@@ -5,13 +9,10 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;  
   font-size: 16px;
 }
 
-header {
-  color:#4d4959;
-}
 
 h2 {
   text-transform: uppercase;
@@ -25,6 +26,35 @@ p {
   color: #848789;
 }
 
+/* -----------------------------------------
+Global
+----------------------------------------- */
+.accent {
+    color:#64c29e;
+}
+
+/* -----------------------------------------
+Sections
+----------------------------------------- */
+
+/* --------- Section 1 - Header --------------- */
+header {
+    color:#4d4959;
+}
+
+/* --------- Section 2 - Banner --------------- */
+
+/* --------- Section 3 - Bikes --------------- */
+
+/* --------- Section 4 - Social --------------- */
+
+/* --------- Section 5 - Discover --------------- */
+
+/* --------- Section 6 - Shop --------------- */
+
+/* --------- Section 7 - Newsletter --------------- */
+
+/* --------- Section 8 - Footer --------------- */
 footer,
 footer div {
   display: flex;
@@ -51,8 +81,4 @@ footer .footer-social {
 footer .handcrafted {
   display: flex;
   align-items: center;
-}
-
-.accent {
-  color:#64c29e;
 }
