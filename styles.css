@@ -1,13 +1,18 @@
+/* -----------------------------------------
+Base
+----------------------------------------- */
+
 * {
   box-sizing: border-box;
   margin:0;
   padding:0;
-  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;  
   font-size: 16px;
 }
-header {
-  color:#4d4959;
-}
+
 
 h2 {
   text-transform: uppercase;
@@ -16,38 +21,80 @@ h2 {
   color: #353738;
   letter-spacing: 0.1em;
 }
+
 p {
   color: #848789;
 }
 
-footer {
+/* -----------------------------------------
+Global
+----------------------------------------- */
+.accent {
+    color:#64c29e;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+/* -----------------------------------------
+Sections
+----------------------------------------- */
+
+/* --------- Section 1 - Header --------------- */
+header {
+    color:#4d4959;
+}
+
+/* --------- Section 2 - Banner --------------- */
+
+/* --------- Section 3 - Bikes --------------- */
+#oliva, #boriosa, #hulot {
+    height: 600px;
+}
+
+.section_3 {
+    align-items: flex-end;
+}
+
+/* #oliva {background-color: goldenrod;}
+#boriosa {background-color: cornflowerblue;}
+#hulot {background-color: coral;} */
+
+/* --------- Section 4 - Social --------------- */
+
+/* --------- Section 5 - Discover --------------- */
+
+/* --------- Section 6 - Shop --------------- */
+
+/* --------- Section 7 - Newsletter --------------- */
+
+/* --------- Section 8 - Footer --------------- */
+footer,
+footer div {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+footer {
   width: 100%;
   height: 200px;
-  background-color: #f7f7f7;
   padding: 0 10% 0 10%;
-  font-size: 0.8em;
+  background-color: #f7f7f7;
+  font-size: 0.75em;
 }
 
-footer div
- {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer div {
   width: 33%;
-}
-
-footer div p {
-  display: flex;
-  align-items: center;
 }
 
 footer .footer-social {
   margin: 5px;
 }
 
-.accent {
-  color:#64c29e;
+footer .handcrafted {
+  display: flex;
+  align-items: center;
 }
