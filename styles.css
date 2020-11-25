@@ -33,6 +33,11 @@ Global
     color:#64c29e;
 }
 
+.flex-container {
+    display: flex;
+}
+
+
 /* -----------------------------------------
 Sections
 ----------------------------------------- */
@@ -45,6 +50,17 @@ header {
 /* --------- Section 2 - Banner --------------- */
 
 /* --------- Section 3 - Bikes --------------- */
+#oliva, #boriosa, #hulot {
+    height: 600px;
+}
+
+.section_3 {
+    align-items: flex-end;
+}
+
+/* #oliva {background-color: goldenrod;}
+#boriosa {background-color: cornflowerblue;}
+#hulot {background-color: coral;} */
 
 /* --------- Section 4 - Social --------------- */
 
