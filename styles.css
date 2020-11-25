@@ -31,14 +31,20 @@ footer {
   font-size: 0.8em;
 }
 
-footer div {
+footer div
+ {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 33%;
 }
 
-.footer-social {
+footer div p {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-social {
   margin: 5px;
 }
 
