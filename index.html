@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>AOD New York</title>
 
@@ -12,9 +12,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
+
   <body>
 
-    <img id="banner_image" src="./img/layer7.png" alt="bike handel">
+    <header>
+      <div class="header-img">
+        <div class="container">
+          <div class="topnav">
+            <a href="#about us">ABOUT US</a>
+            <a href="#work">WORK</a>
+          </div>
+
+          <img id="logo" src="img/logo.png" alt="logo">
+
+          <div class="topnav">
+            <a href="#shop">SHOP</a>
+            <a href="#contact">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
     <section id="section_2">
       <img src="./img/Icon.png" alt="bike chain icon">
       <h2>A new generation of vintage bike</h2>
@@ -29,11 +47,11 @@
 
     <section id="section_3">
       <div id="oliva" class="section_3 flex-container">
-        <div class="flex-container center">
+        <div class="flex-container center col-2_3">
           <img class="logo" src="./img/logo2.png" alt="Logo Bicycle Company">
           <img src="./img/layer10.png" alt="Vintage Oliva Handlebar">
         </div>
-        <article>
+        <article class="col-1_3 flex-container">
           <img src="./img/Icon2.png" alt="Icon Bicycle Company">
           <h2>Vintage Oliva</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
@@ -41,11 +59,11 @@
         </article>
       </div>
       <div id="boriosa" class="section_3 flex-container">
-        <div class="flex-container center">
+        <div class="flex-container center col-2_3">
           <img class="logo" src="./img/logo2.png" alt="Logo Bicycle Company">
           <img src="./img/layer12.png" alt="La Boriosa Vintage Bicycle">
         </div>
-        <article>
+        <article class="col-1_3 flex-container">
           <img src="./img/Icon4.png" alt="Icon Bicycle Company">
           <h2>La Boriosa</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
@@ -54,17 +72,21 @@
       </div>
 
       <div id="hulot"  class="section_3 flex-container">
-        <div class="flex-container center">
+        <div class="flex-container center col-1_3">
           <img class="logo" src="./img/logo2.png" alt="Logo Bicycle Company">
           <img src="./img/layer15.png" alt="M. Hulot bicycle frame">
         </div>
-        <article>
+
+        <article class="col-1_3 flex-container">
           <img src="./img/Icon3.png" alt="Icon Bicycle Company">
           <h2>Retrò Bike - M. Hulot</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived.</p>
           <img src="./img/layer16.png" alt="M. Hulot Wheele rim">
         </article>
-        <img src="./img/layer14.png" alt="M. Hulot Vintage Bicycle">
+
+        <div class="col-1_3">
+          <img src="./img/layer14.png" alt="M. Hulot Vintage Bicycle">
+        </div>
       </div>
     </section>
 
