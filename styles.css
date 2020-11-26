@@ -37,6 +37,14 @@ Global
   display: flex;
 }
 
+.col-1_3 {
+  width: 33.3333334%;
+}
+
+.col-2_3 {
+  width: 66.6666%;
+}
+
 
 /* -----------------------------------------
 Sections
@@ -70,12 +78,11 @@ header {
 }
 
 /* --------- Section 3 - Bikes --------------- */
-#oliva, #boriosa, #hulot {
-  height: 600px;
-}
 
 .section_3 {
   align-items: flex-end;
+  width: 100%;
+  max-height: 600px;
 }
 
 .center {
@@ -87,15 +94,10 @@ header {
   position: absolute;
 }
 
-/* #bg_layer_12 {
-  width: auto;
-  height: 600px;
-  background-image: url("./img/layer12.png");
-} */
+.section_3 img[src*="img/layer"] {
+  width: 100%;
+}
 
-/* #oliva {background-color: goldenrod;}
-#boriosa {background-color: cornflowerblue;}
-#hulot {background-color: coral;} */
 
 /* --------- Section 4 - Social --------------- */
 
