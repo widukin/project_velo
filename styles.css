@@ -91,6 +91,23 @@ Global
   width: 66.6666%;
 }
 
+/*text banner styling*/
+.banner {
+  background-color: #f7f7f7;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.banner img{
+  margin-bottom: 2em;
+}
+.banner h2 {
+  margin-bottom: 0.8em;
+}
+
+
 
 /* -----------------------------------------
 Sections
@@ -102,27 +119,10 @@ header {
 }
 
 /* --------- Section 2 - Banner --------------- */
-#banner_image {
-  width: 100%;
-}
-
-#section_2 {
-  background-color: #f7f7f7;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
-
-#section_2 img, #section_2 h2{
-  margin-bottom: 40px;
-}
-
-#section_2 p {
+#section_2 p{
   font-size: 18px;
   text-align: center;
-  width: 1200px;
+  width: 60%;
   line-height: 2em;
 }
 
@@ -156,6 +156,38 @@ article.flex-container {
 
 
 /* --------- Section 4 - Social --------------- */
+.light {
+  font-weight: 300;
+  color: #848789;
+}
+.slider_menu {
+  text-align:center;
+}
+.slider_menu .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border: #bbb solid 1px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.slider_menu .dot.active{
+  background: #bbb;
+  cursor: initial;
+}
+
+#section_4 h2 {
+  text-transform: none;
+}
+
+#section_4 p {
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 2em;
+}
 
 /* --------- Section 5 - Discover --------------- */
 
