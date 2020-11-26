@@ -83,6 +83,9 @@ header {
   justify-content: center;
 }
 
+.logo {
+  position: absolute;
+}
 
 /* #bg_layer_12 {
   width: auto;
