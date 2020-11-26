@@ -30,11 +30,11 @@ p {
 Global
 ----------------------------------------- */
 .accent {
-    color:#64c29e;
+  color:#64c29e;
 }
 
 .flex-container {
-    display: flex;
+  display: flex;
 }
 
 
@@ -44,7 +44,7 @@ Sections
 
 /* --------- Section 1 - Header --------------- */
 header {
-    color:#4d4959;
+  color:#4d4959;
 }
 
 /* --------- Section 2 - Banner --------------- */
@@ -71,12 +71,24 @@ header {
 
 /* --------- Section 3 - Bikes --------------- */
 #oliva, #boriosa, #hulot {
-    height: 600px;
+  height: 600px;
 }
 
 .section_3 {
-    align-items: flex-end;
+  align-items: flex-end;
 }
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* #bg_layer_12 {
+  width: auto;
+  height: 600px;
+  background-image: url("./img/layer12.png");
+} */
 
 /* #oliva {background-color: goldenrod;}
 #boriosa {background-color: cornflowerblue;}
