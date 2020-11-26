@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .header-img {
   /* The image used */
@@ -51,4 +51,133 @@
   background-color: #ddd;
   color: black;
 }
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
 
+body {
+font-family: 'Lato', sans-serif;  
+font-size: 16px;
+}
+
+
+h2 {
+text-transform: uppercase;
+font-size: 18px;
+font-weight: bold;
+color: #353738;
+letter-spacing: 0.1em;
+}
+
+p {
+color: #848789;
+}
+
+/* -----------------------------------------
+Global
+----------------------------------------- */
+.accent {
+color:#64c29e;
+}
+
+.flex-container {
+display: flex;
+}
+
+
+/* -----------------------------------------
+Sections
+----------------------------------------- */
+
+/* --------- Section 1 - Header --------------- */
+header {
+color:#4d4959;
+}
+
+/* --------- Section 2 - Banner --------------- */
+#banner_image {
+width: 100%;
+}
+#section_2 {
+background-color: #f7f7f7;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
+#section_2 img, #section_2 h2{
+margin-bottom: 40px;
+}
+#section_2 p {
+font-size: 18px;
+text-align: center;
+width: 1200px;
+line-height: 2em;
+}
+
+/* --------- Section 3 - Bikes --------------- */
+#oliva, #boriosa, #hulot {
+height: 600px;
+}
+
+.section_3 {
+align-items: flex-end;
+}
+
+.center {
+align-items: center;
+justify-content: center;
+}
+
+.logo {
+position: absolute;
+}
+
+/* #bg_layer_12 {
+width: auto;
+height: 600px;
+background-image: url("./img/layer12.png");
+} */
+
+/* #oliva {background-color: goldenrod;}
+#boriosa {background-color: cornflowerblue;}
+#hulot {background-color: coral;} */
+
+/* --------- Section 4 - Social --------------- */
+
+/* --------- Section 5 - Discover --------------- */
+
+/* --------- Section 6 - Shop --------------- */
+
+/* --------- Section 7 - Newsletter --------------- */
+
+/* --------- Section 8 - Footer --------------- */
+footer,
+footer div {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer {
+width: 100%;
+height: 200px;
+padding: 0 10% 0 10%;
+background-color: #f7f7f7;
+font-size: 0.75em;
+}
+
+footer div {
+width: 33%;
+}
+
+footer .footer-social {
+margin: 5px;
+}
+
+footer .handcrafted {
+display: flex;
+align-items: center;
+}
