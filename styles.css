@@ -1,20 +1,19 @@
-
 /* -----------------------------------------
 Global
 ----------------------------------------- */
 * {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 
 .accent {
-  color:#64c29e;
+  color: #64c29e;
 }
 
 .flex-container {
@@ -32,27 +31,23 @@ body {
 /*text banner styling*/
 .banner {
   background-color: #f7f7f7;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
 }
-.banner img{
+.banner img {
   margin-bottom: 2em;
 }
 .banner h2 {
   margin-bottom: 0.8em;
 }
 
-
-
 /* -----------------------------------------
 Sections
 ----------------------------------------- */
 
 /* --------- Section 1 - Header --------------- */
-
 
 .header-img {
   /* The image used */
@@ -61,7 +56,6 @@ Sections
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 /* Position the navbar container inside the image */
@@ -88,21 +82,20 @@ Sections
 .topnav a {
   display: inline-flex;
   flex-direction: row;
-  color:#4d4959;
+  color: #4d4959;
   padding: 10px 30px;
   text-decoration: none;
   font-size: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   justify-content: center;
-
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 /* --------- Section 2 - Banner --------------- */
@@ -115,7 +108,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 
-#section_2 p{
+#section_2 p {
   font-size: 18px;
   text-align: center;
   width: 60%;
@@ -126,13 +119,12 @@ p {
   color: #848789;
 }
 
-
 /* --------- Section 3 - Bikes --------------- */
 
 .section_3 {
   align-items: flex-end;
   width: 100%;
-  max-height: 600px;
+  /* max-height: 600px; */
 }
 
 .center {
@@ -155,14 +147,13 @@ article.flex-container {
   align-items: center;
 }
 
-
 /* --------- Section 4 - Social --------------- */
 .light {
   font-weight: 300;
   color: #848789;
 }
 .slider_menu {
-  text-align:center;
+  text-align: center;
 }
 .slider_menu .dot {
   cursor: pointer;
@@ -173,7 +164,7 @@ article.flex-container {
   border-radius: 50%;
   display: inline-block;
 }
-.slider_menu .dot.active{
+.slider_menu .dot.active {
   background: #bbb;
   cursor: initial;
 }
@@ -196,7 +187,7 @@ article.flex-container {
   display: grid;
   column-gap: 0;
 }
-.image_grid img{
+.image_grid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -212,10 +203,10 @@ article.flex-container {
   width: 100%;
   height: 100%;
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
 }
-.shop_now{
+.shop_now {
   background-image: url("./img/layer23.png");
   background-size: cover;
   position: relative;
@@ -230,31 +221,56 @@ article.flex-container {
   font-size: 1.2em;
 }
 
-.shop_now img, .shop_now h2 {
+.shop_now img,
+.shop_now h2 {
   z-index: 10;
   color: white;
 }
-.item1 { grid-row: 1; grid-column: 1;}
-.item2 { grid-row: 1; grid-column: 2;}
-.item3 { grid-row: 2; grid-column: 1 / span 2;}
-.item4 { grid-row: 1 / span 2; grid-column: 3;}
-.item5 { grid-row: 1 / span 2; grid-column: 4;}
-.item6 { grid-row: 1; grid-column: 5 / span 2;}
-.item7 { grid-row: 2; grid-column: 5 }
-.item8 { grid-row: 2; grid-column: 6 }
+.item1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+.item2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+.item3 {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}
+.item4 {
+  grid-row: 1 / span 2;
+  grid-column: 3;
+}
+.item5 {
+  grid-row: 1 / span 2;
+  grid-column: 4;
+}
+.item6 {
+  grid-row: 1;
+  grid-column: 5 / span 2;
+}
+.item7 {
+  grid-row: 2;
+  grid-column: 5;
+}
+.item8 {
+  grid-row: 2;
+  grid-column: 6;
+}
 
 .discover {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10em;
-  background-color:#353738;
+  background-color: #353738;
 }
-.discover a{
+.discover a {
   border: white solid 1px;
   padding: 1em 4em;
 }
-.discover h2{
+.discover h2 {
   color: white;
   letter-spacing: 0.2em;
 }
