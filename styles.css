@@ -54,15 +54,9 @@ Sections
 
 /* --------- Section 1 - Header --------------- */
 
-.header-img {
-  /* The image used */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* Position the navbar container inside the image */
 .container {
+  position: absolute;
   width: 100%;
   margin: 20px;
   display: flex;
@@ -84,7 +78,6 @@ Sections
 /* Navbar links */
 .topnav a {
   display: inline-flex;
-
   color: #4d4959;
   padding: 15px 25px;
   text-decoration: none;
