@@ -137,6 +137,11 @@ article.flex-container {
   width: 100%;
 }
 
+.section_3 article p {
+  width: 80%;
+  text-align: center;
+}
+
 .section_3 img[src*="img/layer"] {
   width: 100%;
 }
