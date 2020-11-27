@@ -79,6 +79,7 @@ Sections
 .topnav a {
   display: inline-flex;
   color: #4d4959;
+  font-weight: bold;
   padding: 15px 25px;
   text-decoration: none;
   font-size: 10px;
