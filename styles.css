@@ -82,63 +82,33 @@ Sections
   text-decoration: none;
   font-size: 10px;
   justify-content: center;
-
-  flex-direction: row;
-  color: #4d4959;
-  padding: 10px 30px;
-  text-decoration: none;
-  font-size: 0.6em;
-  font-family: "Lato", sans-serif;
-  justify-content: center;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /* --------- Section 2 - Banner --------------- */
 
 h2 {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 18px;
   font-weight: bold;
   color: #353738;
   letter-spacing: 0.1em;
 }
 
 #section_2 p {
+  font-size: 18px;
   text-align: center;
   width: 60%;
+  line-height: 2em;
 }
 
 p {
   color: #848789;
-  line-height: 1.5em;
 }
 
 /* --------- Section 3 - Bikes --------------- */
 
-article.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .section_3 {
   align-items: flex-end;
-  width: 100%;
-}
-
-.section_3 article p {
-  width: 80%;
-  text-align: center;
-}
-
-.section_3 img[src*="img/layer"] {
   width: 100%;
 }
 
@@ -150,6 +120,16 @@ article.flex-container {
 .logo {
   align-items: flex-end;
   position: absolute;
+}
+
+.section_3 img[src*="img/layer"] {
+  width: 100%;
+}
+
+article.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* --------- Section 4 - Social --------------- */
@@ -179,7 +159,8 @@ article.flex-container {
 }
 
 #section_4 p {
-  font-size: 1.2em;
+  font-size: 24px;
+  line-height: 1.5em;
   text-align: center;
   width: 50%;
   margin-bottom: 2em;
