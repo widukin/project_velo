@@ -9,7 +9,6 @@ Global
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
 }
 
 img {
@@ -90,7 +89,7 @@ Sections
   color: #4d4959;
   padding: 10px 30px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 0.6em;
   font-family: "Lato", sans-serif;
   justify-content: center;
 }
@@ -107,14 +106,13 @@ Sections
 
 h2 {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: bold;
   color: #353738;
   letter-spacing: 0.1em;
 }
 
 #section_2 p {
-  font-size: 18px;
   text-align: center;
   width: 60%;
 }
@@ -183,7 +181,7 @@ article.flex-container {
 }
 
 #section_4 p {
-  font-size: 24px;
+  font-size: 1.2em;
   text-align: center;
   width: 50%;
   margin-bottom: 2em;
