@@ -117,11 +117,11 @@ h2 {
   font-size: 18px;
   text-align: center;
   width: 60%;
-  line-height: 2em;
 }
 
 p {
   color: #848789;
+  line-height: 1.5em;
 }
 
 /* --------- Section 3 - Bikes --------------- */
@@ -184,7 +184,6 @@ article.flex-container {
 
 #section_4 p {
   font-size: 24px;
-  line-height: 1.5em;
   text-align: center;
   width: 50%;
   margin-bottom: 2em;
