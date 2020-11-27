@@ -140,6 +140,14 @@ article.flex-container {
   width: 100%;
 }
 
+.section_3 article p::after {
+  content: "_________";
+  display: block;
+  position: relative;
+  text-align: center;
+  color: #848789;
+}
+
 .section_3 article p {
   width: 80%;
   text-align: center;
