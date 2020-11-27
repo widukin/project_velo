@@ -126,8 +126,18 @@ p {
 
 /* --------- Section 3 - Bikes --------------- */
 
+article.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section_3 {
   align-items: flex-end;
+  width: 100%;
+}
+
+.section_3 img[src*="img/layer"] {
   width: 100%;
 }
 
@@ -139,16 +149,6 @@ p {
 .logo {
   align-items: flex-end;
   position: absolute;
-}
-
-.section_3 img[src*="img/layer"] {
-  width: 100%;
-}
-
-article.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* --------- Section 4 - Social --------------- */
