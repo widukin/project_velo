@@ -55,8 +55,6 @@ Sections
 
 .header-img {
   /* The image used */
-  background-image: url("img/layer7.png");
-  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,16 +62,16 @@ Sections
 
 /* Position the navbar container inside the image */
 .container {
-  position: absolute;
-  text-align: center;
+  width: 100%;
   margin: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Logo */
 #logo {
-  width: 10%;
+  width: 5%;
   height: auto;
 }
 
@@ -85,6 +83,13 @@ Sections
 /* Navbar links */
 .topnav a {
   display: inline-flex;
+
+  color: #4d4959;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 10px;
+  justify-content: center;
+
   flex-direction: row;
   color: #4d4959;
   padding: 10px 30px;
