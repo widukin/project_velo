@@ -67,15 +67,15 @@ Sections
 /* Position the navbar container inside the image */
 .container {
   position: absolute;
-  text-align: center;
+  width: 98.5%;
   margin: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /* Logo */
 #logo {
-  width: 10%;
+  width: 5%;
   height: auto;
 }
 
@@ -87,23 +87,13 @@ Sections
 /* Navbar links */
 .topnav a {
   display: inline-flex;
-  flex-direction: row;
   color:#4d4959;
-  padding: 10px 30px;
+  padding: 15px 30px;
   text-decoration: none;
   font-size: 10px;
-  font-family: 'Lato', sans-serif;
   justify-content: center;
-
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-}
 
 /* --------- Section 2 - Banner --------------- */
 
