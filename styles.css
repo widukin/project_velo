@@ -39,6 +39,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 6em 2em;
 }
 .banner img {
   margin-bottom: 2em;
